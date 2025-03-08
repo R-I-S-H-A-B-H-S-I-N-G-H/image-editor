@@ -1,0 +1,40 @@
+.image-editor-container {
+	padding: 20px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.editor-controls {
+	margin-top: 10px;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+
+.editor-controls button {
+	padding: 8px 16px;
+	background-color: #2c3e50;
+	color: #ecf0f1;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.editor-controls button:hover {
+	background-color: #e74c3c;
+}
+
+.tui-image-editor-container {
+	border: 2px solid #2c3e50;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tui-image-editor-menu > .tui-image-editor-item {
+	background-color: #34495e;
+}
+
+.tui-image-editor-menu > .tui-image-editor-item:hover {
+	background-color: #e74c3c;
+}
